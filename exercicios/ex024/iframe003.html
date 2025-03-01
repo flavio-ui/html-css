@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque quasi, sed sint autem odio itaque impedit repudiandae, suscipit dolor quod iusto! Veniam odit doloremque debitis! Unde minima nemo ea.</p>
+
+    <ul>
+        <li><a target="frame" href="paginas-extras/pag001.html">Primeira página</a></li>
+        <li><a target="frame" href="paginas-extras/pag002.html">Segunda página</a></li>
+        <li><a target="frame" href="paginas-extras/pag003.html">Terceira página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempora quo eligendi cumque consectetur? Unde eos facilis aut nihil magnam reiciendis porro doloremque id eligendi, obcaecati corrupti quibusdam cupiditate quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minus iste excepturi et quae ratione eum laboriosam nesciunt fuga nobis. Adipisci blanditiis repellat expedita architecto magnam atque corrupti, ipsum possimus.</p>
+
+    <iframe name="frame" srcdoc="
+    <h1>Escolha uma das opções acima</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic nemo repudiandae, inventore sit unde odit fuga dolorem temporibus molestiae, molestias ab architecto alias officia voluptate laboriosam? Voluptates, aut temporibus!</p>
+    <img src='paginas-extras/imagem/cursoemvideo-logo.png'>">
+        <p>Infelizmente seu navegador não é conpatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic nemo repudiandae, inventore sit unde odit fuga dolorem temporibus molestiae, molestias ab architecto alias officia voluptate laboriosam? Voluptates, aut temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla sit, placeat eligendi praesentium enim dolores dolor velit autem amet hic rem voluptatum minima! Quisquam ipsam tempore voluptatum obcaecati quasi.</p>
+</body>
+</html>
